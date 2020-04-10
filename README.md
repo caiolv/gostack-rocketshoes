@@ -18,5 +18,5 @@ RocketShoes é um aplicativo em React para simular uma aplicação de compras on
 ## 🚀 Instalação e execução
 
 1. Abra a pasta do projeto e execute `yarn` para instalar as dependências;
-3. Execute ` json-server server.json -p 3333` para rodar o servidor no [json-server](https://yarnpkg.com/package/json-server]).
+3. Execute ` json-server server.json -p 3333` para rodar o servidor no [json-server](https://github.com/typicode/json-server]).
 2. Rode `yarn start` para iniciar a aplicação.

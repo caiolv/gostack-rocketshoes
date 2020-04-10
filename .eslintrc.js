@@ -7,7 +7,8 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
     'prettier',
-    'prettier/react'
+    'prettier/react',
+    'react-hooks',
   ],
   globals: {
     Atomics: 'readonly',
@@ -24,6 +25,7 @@ module.exports = {
   plugins: [
     'react',
     'prettier',
+    'react-hooks',
   ],
   rules: {
     'prettier/prettier': 'error',
@@ -36,6 +38,8 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/state-in-constructor': 'off',
     'no-param-reassign': 'off',
-    'no-console': ["error", {allow: ["tron"]}]
+    'no-console': ["error", {allow: ["tron"]}],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
 };
